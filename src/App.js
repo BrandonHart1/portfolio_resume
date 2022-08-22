@@ -3,11 +3,16 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
+// ----- need to add a variable for the background photo -----
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <div>
+        {/* ------- need to add image ------- */}
+        <img src='' alt='Computer' />
+      </div>
       <Routes>
         <Route path='/' exact component={HomePage} />
       </Routes>
