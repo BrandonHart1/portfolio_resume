@@ -13,6 +13,9 @@ const Navbar = () => {
           <NavLink to='/about' activeStyle>
             About
           </NavLink>
+          <NavLink to='/skills' activeStyle>
+            Skills
+          </NavLink>
           <NavLink to='/portfolio' activeStyle>
             Portfolio
           </NavLink>

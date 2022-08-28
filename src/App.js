@@ -9,10 +9,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div>
-        {/* ------- need to add image ------- */}
-        <img src='' alt='Computer' />
-      </div>
+      <HomePage />
       <Routes>
         <Route path='/' exact component={HomePage} />
       </Routes>
