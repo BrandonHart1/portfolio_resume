@@ -24,11 +24,24 @@ code {
 .main {
   width: 100%;
   height: 100vh;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
 video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* ---------- content over video ---------- */
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
