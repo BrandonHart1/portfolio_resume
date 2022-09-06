@@ -6,7 +6,7 @@ const HomePage = () => {
     <div className='main'>
       <video src={backgroundVideo} autoPlay loop muted />
       <div className='content'>
-        <h1>Hello!</h1>
+        <h1>WELCOME!</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit saepe
           rerum nemo voluptatibus earum iste dolores eligendi asperiores ut vel,
